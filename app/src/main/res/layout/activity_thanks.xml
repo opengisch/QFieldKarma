@@ -9,9 +9,10 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".Thanks$PlaceholderFragment"
     android:columnCount="2"
-    android:clickable="true">
+    android:clickable="true"
+    android:background="@android:color/background_dark">
     <TextView
-        android:textColor="#80CC28"
+        android:textColor="@color/opengis_green"
         android:textSize="24sp"
         android:text="@string/thanks_all"
         android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="29dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/opengis_green" />
     <Button
         android:id="@+id/donate_more"
         android:layout_width="wrap_content"
@@ -49,7 +51,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/see_donors"
-        android:layout_alignEnd="@+id/see_donors" />
+        android:layout_alignEnd="@+id/see_donors"
+        android:textColor="@color/opengis_green" />
     <Button
         android:id="@+id/contact_us"
         android:layout_width="wrap_content"
@@ -60,7 +63,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/opengis_green" />
 
     <ImageView
         android:layout_width="wrap_content"
