@@ -1,4 +1,4 @@
-package ch.opengis.qfieldkarma;
+package ch.opengis.qfieldkarmaedition;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -17,6 +17,8 @@ public class Thanks extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thanks);
+        //make_link_button(R.id.install_qfield, "https://play.google.com/store/apps/details?id=ch.opengis.qfield");
+        make_link_button(R.id.install_qfield, "http://www.opengis.ch/android-gis/qfield/installation/");
         make_link_button(R.id.see_donors, "http://www.opengis.ch/android-gis/qfield/donors/");
         make_link_button(R.id.donate_more, "http://www.opengis.ch/android-gis/qfield/donate-and-sponsor/");
         make_link_button(R.id.contact_us, "mailto:info@opengis.ch?subject=QField%20Karma%20contact");

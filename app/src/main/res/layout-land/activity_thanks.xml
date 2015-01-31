@@ -87,6 +87,10 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:src="@drawable/opengis_website_logo"
-        android:contentDescription="@string/opengis_logo" />
+        android:contentDescription="@string/opengis_logo"
+        android:gravity="left"
+        android:scaleType="fitStart"
+        android:cropToPadding="false"
+        android:paddingStart="@dimen/activity_horizontal_margin" />
 
 </RelativeLayout>

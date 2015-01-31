@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QField for QGIS KARMA Edition</string>
-    <string name="thanks_all">Thanks to all the supporters</string>
+    <string name="app_name">QField for QGIS Karma Edition</string>
+    <string name="thanks_all">Thank you for supporting QField</string>
     <string name="action_settings">Settings</string>
+    <string name="button_install_qfield">Install QField</string>
     <string name="button_see_donors">See donors list</string>
     <string name="button_donate_more">Donate</string>
     <string name="button_contact_us">Contact us</string>
+    <string name="opengis_logo">OPENGIS.ch logo</string>
 </resources>

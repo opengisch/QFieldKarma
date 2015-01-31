@@ -1,4 +1,4 @@
-package ch.opengis.qfieldkarma;
+package ch.opengis.qfieldkarmaedition;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
